@@ -152,7 +152,7 @@ body {
 }
 
 .feature1 {
-    margin-top: 230px;
+    margin-top: 117px;
     padding-left: 250px;
 }
 
@@ -169,8 +169,73 @@ body {
     font-weight: 400;
     line-height: 30p
 }
-.sales_images{
+
+.sales_images {
     padding-top: 32px;
     padding-bottom: 30px;
+}
 
 /* sales end */
+/* insata start */
+.insta_images {
+    margin-top: 40px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* insata end */
+/* subscriber strt */
+.subscriber_container {
+    background-image: url('../background/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin: 170px 240px;
+}
+
+.text {
+    width: 700px;
+    height: 60px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+    background: #FFF;
+    flex-shrink: 0;
+}
+
+.f_title3 {}
+
+.f_description3 {}
+
+.information_container {
+    width: 1922px;
+    height: 380px;
+    padding: 50px;
+    background: #111010;
+    justify-content: center;
+}
+
+.footer_titel {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.footer_description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+.feature{
+    justify-content: center;
+}
