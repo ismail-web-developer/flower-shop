@@ -118,3 +118,59 @@ body {
 }
 
 /* feature end */
+/* facility start */
+.facilities-container {
+    margin: 100px 200px;
+    width: 1175px;
+    height: 186px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.facility_icon {}
+
+.facility_describe {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+/* facility end */
+/* sales start */
+.sales_container {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.sales_section {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.feature1 {
+    margin-top: 230px;
+    padding-left: 250px;
+}
+
+.f_title1 {
+    color: #272727;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.f_description1 {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30p
+}
+.sales_images{
+    padding-top: 32px;
+    padding-bottom: 30px;
+
+/* sales end */
