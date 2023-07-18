@@ -125,6 +125,7 @@ body {
     height: 186px;
     display: flex;
     justify-content: center;
+    text-align: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
 }
@@ -177,11 +178,15 @@ body {
 
 /* sales end */
 /* insata start */
+.feature{
+    margin-top: 5px;
+}
 .insta_images {
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 40px;
     display: flex;
     justify-content: space-around;
+    gap: -20px;
 }
 
 /* insata end */
@@ -189,9 +194,11 @@ body {
 .subscriber_container {
     background-image: url('../background/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    margin: 170px 240px;
+    margin: 80px 200px;
 }
-
+input::placeholder{
+    font-weight: bold;
+}
 .text {
     width: 700px;
     height: 60px;
@@ -206,9 +213,7 @@ body {
 .f_description3 {}
 
 .information_container {
-    width: 1922px;
     height: 380px;
-    padding: 50px;
     background: #111010;
     justify-content: center;
 }
@@ -237,5 +242,5 @@ body {
     line-height: normal;
 }
 .feature{
-    justify-content: center;
+    text-align: center;
 }
